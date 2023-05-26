@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes</title>
+  </head>
+  <body>
+    <div class="notes">
+      <h2>Note Taking App</h2>
+      <div class="note-input">
+        <h3>Add a New Note:</h3>
+        <div class="note-wrapper">
+          <input type="text" id="note-title" placeholder="Title of the Notes" />
+          <textarea
+            rows="5"
+            placeholder="Write your new notes here..."
+            id="note-content"
+          ></textarea>
+          <button type="button" class="btn" id="add-note-btn">
+            <span><i class="fas fa-plus"></i>Add Note</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="note-list">
+        <!-- note Item -->
+              <!-- <div class="note-item">
+                <h3>The Title goes here</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                  odit tempora eligendi architecto, a, perferendis hic placeat impedit
+                  eos fugiat quod earum dolore doloribus assumenda, sequi similique
+                  natus adipisci blanditiis?
+                </p>
+                <button type="button" class="btn delete-btn">
+                  <span><i class="fa fa-trash"></i></span>Remove
+                </button>
+              </div> -->
+      </div>
+      
+      <button type="button" class="btn" id="delete-all-btn">
+        <span><i class="fa fa-trash"></i></span>Delete All
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
